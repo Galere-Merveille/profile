@@ -1,0 +1,100 @@
+.container {
+  text-align: center;
+  width: 800px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+h1 {
+  color: #0F41EE;
+  font-family: outfit;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+h2 {
+  color: #0F41EE;
+  font-family: outfit;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+body {
+  background-color: #F9CDAD;
+  color: #53250C;
+  font-family: outfit;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  color: #1F1F1F;
+  text-decoration: none;
+  font-family: outfit;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #EE642A;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+
+.card {
+  background-color: #F4F4F4;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.img {
+  object-fit: cover;
+  width: 200px;
+}
+
+.bouton {
+  background-color: #0F41EE;
+  color: #F4F4F4;
+  padding: 20px;
+  width: 200px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 24px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
